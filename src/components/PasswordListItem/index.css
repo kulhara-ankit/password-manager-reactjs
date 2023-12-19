@@ -1,0 +1,105 @@
+.password-list-items {
+  border: 1px solid #b6c3ca;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  /* box-shadow: 12px 12px 50px 0px #c3caea; */
+}
+@media screen and (min-width: 768px) {
+  .password-list-items {
+    width: 32%;
+    /* box-shadow: 12px 12px 50px 0px #c3caea; */
+  }
+}
+.user-and-delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-detail-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.website-first-letter {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 15px;
+  height: 10%;
+  width: 10%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 28px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .website-first-letter {
+    font-size: 28px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    text-align: center;
+  }
+}
+.website {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.username {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+.password {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 6px;
+}
+.star-image {
+  width: 80%;
+}
+.delete-button {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+}
+@media screen and (max-width: 768px) {
+  .delete-icon {
+    /* height: 10vh;
+    width: 10vw; */
+    width: 10%;
+  }
+  .delete-button {
+    /* width: 100%;
+    height: 30px; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+  }
+}
+.delete-icon {
+  /* height: 4vh;
+  width: 8vw; */
+  width: 30%;
+}
