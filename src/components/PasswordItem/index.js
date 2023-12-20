@@ -102,7 +102,7 @@ class PasswordForm extends Component {
         : 'https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png'
 
     const filteredPasswordDetails = passwordList.filter(eachPasswords =>
-      eachPasswords.website.includes(searchInput),
+      eachPasswords.website.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     return (
